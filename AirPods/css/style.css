@@ -298,7 +298,7 @@ header .header_top{
     width: 100%;
  }
  header .header_top .header_top-icons{
-     padding-left: 90px;
+     padding-left: 120px;
  }
  header .header_top .header_top-icons .fa{
      padding-right: 6px;
@@ -310,34 +310,34 @@ header .header_top{
      align-items: center;
  }
  header .header_top ul li a{
-     font-size: 5px;
+     font-size: 10px;
      font-weight: 300;
      padding-left: 5px;
  }
  header .header_top .header_top-logo{
-     padding-left: 60px;
+     padding-left: 20px;
  }
  header .header_top .header_top-logo img{
-     width: 20;
-     height: 10px;
+     width: 40px;
+     height: 20px;
  }
  /* Header bottom */
  header .header_bottom{
     width: 100%;
-    height: 200px;
+    height: 300px;
 }
 header .header_bottom .header_bottom-text{
-    font-size: 20px;
+    font-size: 35px;
     font-weight: 400;
-    padding-top: 90px;
+    padding-top: 120px;
 }
 header .header_bottom .header_bottom-btn{
-    font-size: 5px;
+    font-size: 10px;
     font-weight: 400;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 3px;
-    margin-top: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    margin-top: 20px;
 }
 header .header_bottom .header_bottom-btn .fa{
     padding-right: 3px;
@@ -345,54 +345,54 @@ header .header_bottom .header_bottom-btn .fa{
 }
 /* Main top */
 main .main_top{
-    padding-bottom: 11px;
+    padding-bottom: 18px;
 }
 main .main_top .main_top-paragraf p{
-    font-size: 4px;
+    font-size: 6px;
     font-weight: 400;
-    line-height: 4px;
-    padding-right: 6px;
-    padding-top: 12px;
+    line-height: 7px;
+    padding-right: 12px;
+    padding-top: 20px;
 }
 main .main_top .main_top-image{
-    padding-top: 6px;
+    padding-top: 12px;
 }
 main .main_top .main_top-image img{
-    width: 100px;
-    height: 60px;
+    width: 110px;
+    height: 70px;
 }
 /* Main middle */
 main .main_middle{
-    padding-bottom: 11px;
+    padding-bottom: 18px;
 }
 main .main_middle .main_middle-text{
-    font-size: 4px;
+    font-size: 6px;
     font-weight: 400;
-    line-height: 4px;
-    padding-top: 30px;
-    padding-left: 5px;
+    line-height: 7px;
+    padding-top: 50px;
+    padding-left: 10px;
 }
 main .main_middle .main_middle-image img{
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
 }
 /* Main footer */
 main .main_footer{
-    padding-bottom: 17px;
+    padding-bottom: 24px;
 }
 main .main_footer .main_footer-paragraf-left{
-    font-size: 4px;
+    font-size: 6px;
     font-weight: 400;
-    line-height: 4px;
-    padding-top: 35px;
-    margin-right: 2px;
+    line-height: 7px;
+    padding-top: 25px;
+    margin-right: 4px;
 }
 main .main_footer .main_footer-paragraf{
-    font-size: 4px;
+    font-size: 6px;
     font-weight: 400;
-    line-height: 4px;
-    padding-top: 35px;
-    margin-left: 2px;
+    line-height: 7px;
+    padding-top: 25px;
+    margin-left: 4px;
 }
 main .main_footer .main_footer-image img{
     width: 60px;
@@ -417,37 +417,36 @@ main .main_slider{
     padding-bottom: 12px;
 }
 main .main_slider .slider{
-    width: 90px;
+    width: 190px;
 }
 main .main_slider .slider .card{
     background: white;
     width: 90px;
-    height: 140px;
+    height: 120px;
     margin-right: 20px;
     border-radius: 10px;
 }
 main .main_slider .slider .card .main_slider-text{
-    font-size: 8px;
+    font-size: 6px;
     font-weight: 500;
-    padding-top: 7px;
-    padding-bottom: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 main .main_slider .slider .card .main_slider-paragraf{
-    font-size: 7px;
+    font-size: 5px;
     font-weight: 400;
-    padding-top: 5px;
-    padding-bottom: 10px;
+    padding-top: 4px;
+    padding-bottom: 8px;
 }
 main .main_slider .slider .card .main_slider-image img{
-    width: 50px;
-    height: 70px;
+    width: 40px;
+    height: 60px;
 }
 main .main_slider .slider .card .main_slider-btn button{
     padding-top: 3px;
     padding-bottom: 3px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 /* Footer start */
 footer{
@@ -455,7 +454,7 @@ footer{
     padding-bottom: 15px;
 }
 footer .footer-menu ul li a{
-    font-size: 5px;
+    font-size: 10px;
     font-weight: 400;
     margin-right: 6px;
 }

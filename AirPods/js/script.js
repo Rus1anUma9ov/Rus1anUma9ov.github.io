@@ -7,7 +7,7 @@ $(document).ready(function(){
        items: 4,
        responsive:{
         320:{
-            items:1,
+            items:2,
             nav:true
         },
          576:{
