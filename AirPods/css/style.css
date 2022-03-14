@@ -269,6 +269,213 @@ footer .footer-pay img{
 }
 
 /* Media Query */
+@media(min-width: 320px) and (max-width: 576px){
+       /* Search */
+.search{
+    width: 100%;
+    height: 30px;
+}
+.search .search_icon .fa{
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.search .search_input input{
+    width: 120px;
+    height: 5px;
+    margin-left: 100px;
+    margin-top: 2px;
+    font-size: 5px;
+    font-weight: 200;
+}
+/* Header top */
+header .header_top{
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 100%;
+ }
+ header .header_top .header_top-icons{
+     padding-left: 90px;
+ }
+ header .header_top .header_top-icons .fa{
+     padding-right: 6px;
+     font-size: 9px;
+     font-weight: 300;
+ }
+ header .header_top ul li{
+     display: flex;
+     align-items: center;
+ }
+ header .header_top ul li a{
+     font-size: 5px;
+     font-weight: 300;
+     padding-left: 5px;
+ }
+ header .header_top .header_top-logo{
+     padding-left: 60px;
+ }
+ header .header_top .header_top-logo img{
+     width: 20;
+     height: 10px;
+ }
+ /* Header bottom */
+ header .header_bottom{
+    width: 100%;
+    height: 200px;
+}
+header .header_bottom .header_bottom-text{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 90px;
+}
+header .header_bottom .header_bottom-btn{
+    font-size: 5px;
+    font-weight: 400;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    margin-top: 12px;
+}
+header .header_bottom .header_bottom-btn .fa{
+    padding-right: 3px;
+    padding-left: 2px;
+}
+/* Main top */
+main .main_top{
+    padding-bottom: 11px;
+}
+main .main_top .main_top-paragraf p{
+    font-size: 4px;
+    font-weight: 400;
+    line-height: 4px;
+    padding-right: 6px;
+    padding-top: 12px;
+}
+main .main_top .main_top-image{
+    padding-top: 6px;
+}
+main .main_top .main_top-image img{
+    width: 100px;
+    height: 60px;
+}
+/* Main middle */
+main .main_middle{
+    padding-bottom: 11px;
+}
+main .main_middle .main_middle-text{
+    font-size: 4px;
+    font-weight: 400;
+    line-height: 4px;
+    padding-top: 30px;
+    padding-left: 5px;
+}
+main .main_middle .main_middle-image img{
+    width: 100px;
+    height: 100px;
+}
+/* Main footer */
+main .main_footer{
+    padding-bottom: 17px;
+}
+main .main_footer .main_footer-paragraf-left{
+    font-size: 4px;
+    font-weight: 400;
+    line-height: 4px;
+    padding-top: 35px;
+    margin-right: 2px;
+}
+main .main_footer .main_footer-paragraf{
+    font-size: 4px;
+    font-weight: 400;
+    line-height: 4px;
+    padding-top: 35px;
+    margin-left: 2px;
+}
+main .main_footer .main_footer-image img{
+    width: 60px;
+    height: 90px;
+}
+main .main_footer .main_footer-image::before{
+    content: " ";
+    display: block;
+    width: 12px;
+    height: 0.5px;
+    margin-right: 2px;
+}
+main .main_footer .main_footer-image::after{
+    content: " ";
+    display: block;
+    width: 12px;
+    height: 0.5px;
+    margin-left: 2px;
+}
+/* Main slider */
+main .main_slider{
+    padding-bottom: 12px;
+}
+main .main_slider .slider{
+    width: 90px;
+}
+main .main_slider .slider .card{
+    background: white;
+    width: 90px;
+    height: 140px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+main .main_slider .slider .card .main_slider-text{
+    font-size: 8px;
+    font-weight: 500;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+main .main_slider .slider .card .main_slider-paragraf{
+    font-size: 7px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+main .main_slider .slider .card .main_slider-image img{
+    width: 50px;
+    height: 70px;
+}
+main .main_slider .slider .card .main_slider-btn button{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 4px;
+}
+/* Footer start */
+footer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+footer .footer-menu ul li a{
+    font-size: 5px;
+    font-weight: 400;
+    margin-right: 6px;
+}
+footer .footer-logo img{
+    width: 60px;
+    height: 40px;
+}
+footer .footer-pay img{
+    padding-top:14px;
+    margin-right: 5px;
+    width: 30px;
+    height: 25px;
+}
+/* Slide UP */
+.slide_up .fa{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 7px 7px 7px 7px;
+}
+}
 
 @media(min-width: 576px) and (max-width: 768px){
     /* Search */

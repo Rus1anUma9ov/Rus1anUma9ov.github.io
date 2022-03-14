@@ -6,6 +6,10 @@ $(document).ready(function(){
        mouseDrag: true,
        items: 4,
        responsive:{
+        320:{
+            items:1,
+            nav:true
+        },
          576:{
              items:2,
              nav:true
@@ -25,7 +29,7 @@ $(document).ready(function(){
 // Scroll
     $(window).scroll(function(){
       let scroll = $(this).scrollTop();
-      if (scroll > 300) {
+      if (scroll > 150) {
           $('.slide_up').fadeIn();
       }else{
           $('.slide_up').fadeOut();
