@@ -29,7 +29,7 @@ $(document).ready(function(){
 // Scroll
     $(window).scroll(function(){
       let scroll = $(this).scrollTop();
-      if (scroll > 150) {
+      if (scroll > 100) {
           $('.slide_up').fadeIn();
       }else{
           $('.slide_up').fadeOut();
